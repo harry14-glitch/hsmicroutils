@@ -5,7 +5,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/adhiman2409/gomicroutils/genproto/auth"
+	"github.com/harry14-glitch/hsmicroutils/genproto/auth"
 	"google.golang.org/grpc"
 )
 

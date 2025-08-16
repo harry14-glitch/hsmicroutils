@@ -4,7 +4,10 @@ go 1.24.3
 
 require (
 	cloud.google.com/go/storage v1.56.0
+	github.com/gorilla/mux v1.8.1
 	google.golang.org/api v0.247.0
+	google.golang.org/grpc v1.74.2
+	google.golang.org/protobuf v1.36.7
 )
 
 require (
@@ -52,6 +55,4 @@ require (
 	google.golang.org/genproto v0.0.0-20250603155806-513f23925822 // indirect
 	google.golang.org/genproto/googleapis/api v0.0.0-20250721164621-a45f3dfb1074 // indirect
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20250804133106-a7a43d27e69b // indirect
-	google.golang.org/grpc v1.74.2 // indirect
-	google.golang.org/protobuf v1.36.7 // indirect
 )
