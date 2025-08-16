@@ -26,13 +26,6 @@ func (a *StorageConnection) CreateBucket(domain string) error {
 		return err
 	}
 
-	financeBucketName := GetUpdatedFinanceDomain(domain)
-
-	err = a.CreateGCSBucket(ctx, pid, financeBucketName)
-	if err != nil {
-		return err
-	}
-
 	return nil
 
 }
