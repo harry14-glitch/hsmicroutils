@@ -1,4 +1,4 @@
-module hsmicroutils
+module github.com/harry14-glitch/hsmicroutils
 
 go 1.24.3
 
